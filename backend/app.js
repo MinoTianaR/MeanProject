@@ -5,10 +5,15 @@ const List = require('./database/models/brand');
 const List = require('./database/models/car');
 
 
+//////////////////////////////////////////////////////
 
-/////////CORS: Cross Origin Request Security/////////
-// localhost:3000 - backend api
-// localhost:4200 - frontend
+
+/*
+CORS: Cross Origin Request Security
+
+localhost:3000 - backend api
+localhost:4200 - frontend
+*/
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -21,6 +26,21 @@ app.use((req, res, next) => {
         next();
     }
 });
+
+//////////////////////////////////////////////////////
+
+
+/*
+Brand: Create, Update, ReadOne, ReadAll, Delete
+Car: Create, Update, ReadOne, ReadAll, Delete
+*/
+
+
+app.get('/brands', (req, res) => {
+    TextTrackList.find({})
+        .then(lists => res.sendStatus(lists))
+        .catch((error) => console.log(error));
+})
 
 //////////////////////////////////////////////////////
 
