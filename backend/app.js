@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
 const mongoose = require('./database/mongoose');
+const List = require('./database/models/brand');
+const List = require('./database/models/car');
 
-// CORS: Cross Origin Request Security
+
+
+/////////CORS: Cross Origin Request Security/////////
 // localhost:3000 - backend api
 // localhost:4200 - frontend
 
@@ -18,6 +22,7 @@ app.use((req, res, next) => {
     }
 });
 
+//////////////////////////////////////////////////////
 
 
 app.use(express.json());
