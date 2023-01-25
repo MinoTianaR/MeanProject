@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* Extra Light (Ultra Light) */
+.extra-light {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+}
+
+/* Light */
+.light {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+
+/* Regular (Normal) */
+.regular {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+/* Medium */
+.medium {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+/* Semi Bold */
+.semi-bold {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+/* Bold */
+.bold {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+/* Extra Bold (Ultra Bold) */
+.extra-bold {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+/* Black (Heavy) */
+.black {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
