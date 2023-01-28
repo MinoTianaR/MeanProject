@@ -1,53 +1,114 @@
+<div class="container-fluid text-light p-4">
+  <div class="row">
+    <div class="col-2">
+      <a class="navbar-brand offset-2" href="#">Auto Box</a>
+    </div>
+    <div class="col-8 d-flex justify-content-center align-items-center">
+      <div class="btn-group px-5">
+        <a class="text-light mx-5 text-decoration-none" href="#">Bouton 1</a>
+        <a class="text-light mx-5 text-decoration-none" href="#">Bouton 2</a>
+        <a class="text-light mx-5 text-decoration-none" href="#">Bouton 3</a>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container">
-  <h1 class="text-center text-light">Liste des véhicules</h1>
+  <h1 class="text-center text-light mb-5">Liste des véhicules</h1>
   <div class="row">
     <div class="col-md-1"></div>
-    <div class="col-md-11">
+    <div class="col-md-12">
       <table class="table text-light">
         <thead>
           <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-            <th>Column 4</th>
-            <th>Column 5</th>
+            <th>Marque</th>
+            <th>Modèle</th>
+            <th>Statut</th>
+            <th>Plaque</th>
+            <th>Problème</th>
+            <th>Dépot</th>
+            <th>Reprise</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Row 1 Column 1</td>
-            <td>Row 1 Column 2</td>
-            <td>Row 1 Column 3</td>
-            <td>Row 1 Column 4</td>
-            <td>Row 1 Column 5</td>
+            <td nowrap>Volkswagen</td>
+            <td nowrap>Arteon</td>
+            <td>En réparation</td>
+            <td nowrap>RE-682-SD</td>
+            <td class="form-control border-bottom text-light">
+              Tige de poussée des freins Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Dolore, in quo. Deleniti soluta dolorum
+              repudiandae, non tempore incidunt obcaecati officia, quasi
+              eligendi quibusdam quaerat. Doloremque sit nihil adipisci eum
+              autem.
+            </td>
+            <td nowrap>Dim 22 Jan 2023 07:04:21</td>
+            <td nowrap>-</td>
+            <td nowrap>
+              <div class="position-relative">
+                <button class="btn btn-warning mx-2">Infos</button>
+                <button class="btn btn-success mx-2">Achever</button>
+              </div>
+            </td>
           </tr>
           <tr>
-            <td>Row 2 Column 1</td>
-            <td>Row 2 Column 2</td>
-            <td>Row 2 Column 3</td>
+            <td nowrap>Mercedes-Benz</td>
+            <td nowrap>VUS EQS</td>
+            <td>En réparation</td>
+            <td nowrap>RE-127-JS</td>
             <td>Row 2 Column 4</td>
-            <td>Row 2 Column 5</td>
+            <td nowrap>Dim 22 Jan 2023 07:04:21</td>
+            <td nowrap>-</td>
+            <td nowrap>
+              <div class="position-relative">
+                <button class="btn btn-warning mx-2">Infos</button>
+                <button class="btn btn-success mx-2">Achever</button>
+              </div>
+            </td>
           </tr>
           <tr>
-            <td>Row 3 Column 1</td>
-            <td>Row 3 Column 2</td>
+            <td nowrap>Mercedes-Benz</td>
+            <td nowrap>Gls 2</td>
+            <td>En attente de reprise</td>
+            <td nowrap>FI-376-XL</td>
             <td>Row 3 Column 3</td>
-            <td>Row 3 Column 4</td>
-            <td>Row 3 Column 5</td>
+            <td nowrap>Dim 22 Jan 2023 07:04:21</td>
+            <td nowrap>-</td>
+            <td nowrap>
+              <div class="position-relative">
+                <button class="btn btn-warning mx-2">Infos</button>
+                <button class="btn btn-success mx-2">Achever</button>
+              </div>
+            </td>
           </tr>
           <tr>
-            <td>Row 4 Column 1</td>
-            <td>Row 4 Column 2</td>
+            <td nowrap>Alfa Romeo</td>
+            <td nowrap>Tonale</td>
+            <td>Terminé</td>
+            <td nowrap>RE-920-QL</td>
             <td>Row 4 Column 3</td>
-            <td>Row 4 Column 4</td>
-            <td>Row 4 Column 5</td>
+            <td nowrap>Jeu 12 Jan 2023 07:04:21</td>
+            <td nowrap>Sam 14 Jan 2023 07:04:21</td>
+            <td nowrap>
+              <div class="position-relative">
+                <button class="btn btn-warning mx-2">Infos</button>
+              </div>
+            </td>
           </tr>
           <tr>
-            <td>Row 5 Column 1</td>
-            <td>Row 5 Column 2</td>
+            <td nowrap>Audi</td>
+            <td nowrap>Rs3</td>
+            <td>Terminé</td>
+            <td nowrap>LM-642-OP</td>
             <td>Row 5 Column 3</td>
-            <td>Row 5 Column 4</td>
-            <td>Row 5 Column 5</td>
+            <td nowrap>Lun 16 Jan 2023 07:04:21</td>
+            <td nowrap>Dim 22 Jan 2023 07:04:21</td>
+            <td>
+              <div class="position-relative">
+                <button class="btn btn-warning mx-2">Infos</button>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
