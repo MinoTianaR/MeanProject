@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CarViewComponent } from './pages/car-view/car-view.component';
 import { CustomerRegistrationComponent } from './pages/customer-registration/customer-registration.component';
 import { ManagerComponent } from './pages/manager/manager.component';
+import { OfficerComponent } from './pages/officer/officer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarViewComponent,
     CustomerRegistrationComponent,
-    ManagerComponent
+    ManagerComponent,
+    OfficerComponent
   ],
   imports: [
     BrowserModule,
