@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CarViewComponent } from './pages/car-view/car-view.component';
+import { ManagerDashboardComponent } from './pages/manager-dashboard/manager-dashboard.component';
 
 const routes: Routes = [
   {
-    path: '', component: CarViewComponent
+    path: '', component: ManagerDashboardComponent
   }
 ];
 
