@@ -1,5 +1,6 @@
 # MeanProject
 
+This repository was made for frontend work!
 
 Backend Repository: https://github.com/Edith505/M1p10Mean-Eddy-Mino
 
