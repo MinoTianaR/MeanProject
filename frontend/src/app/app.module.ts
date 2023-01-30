@@ -13,6 +13,8 @@ import { OfficerLoginComponent } from './pages/officer-login/officer-login.compo
 import { CustomerDashboardComponent } from './pages/customer-dashboard/customer-dashboard.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { ManagerDashboardComponent } from './pages/manager-dashboard/manager-dashboard.component';
+import { OfficerDashboardComponent } from './pages/officer-dashboard/officer-dashboard.component';
+import { CarInformationComponent } from './pages/car-information/car-information.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ManagerDashboardComponent } from './pages/manager-dashboard/manager-das
     OfficerLoginComponent,
     CustomerDashboardComponent,
     ForgotPasswordComponent,
-    ManagerDashboardComponent
+    ManagerDashboardComponent,
+    OfficerDashboardComponent,
+    CarInformationComponent
   ],
   imports: [
     BrowserModule,
