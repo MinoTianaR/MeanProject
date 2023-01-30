@@ -1,6 +1,11 @@
 # MeanProject
 
-This repository was made for frontend work!
+## This repository was made for "frontend" work!
+
+
+
+
+#### And listed here are the other studies carried out during the realization:
 
 Backend Repository: https://github.com/Edith505/M1p10Mean-Eddy-Mino
 
