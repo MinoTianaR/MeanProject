@@ -1,4 +1,6 @@
+import { FooterComponent } from '../../footer/footer.component';
 import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-manager-dashboard',
@@ -7,3 +9,14 @@ import { Component } from '@angular/core';
 })
 export class ManagerDashboardComponent {
 }
+
+@NgModule({
+  declarations: [
+  ],
+  imports: [
+
+  ],
+  providers: [],
+  bootstrap: [ManagerDashboardComponent]
+})
+export class AppModule { }
