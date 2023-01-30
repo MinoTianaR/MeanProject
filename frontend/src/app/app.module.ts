@@ -16,6 +16,7 @@ import { ManagerDashboardComponent } from './pages/manager-dashboard/manager-das
 import { OfficerDashboardComponent } from './pages/officer-dashboard/officer-dashboard.component';
 import { CarInformationComponent } from './pages/car-information/car-information.component';
 import { ManagerRepairsComponent } from './pages/manager-repairs/manager-repairs.component';
+import { ManagerVouchersComponent } from './pages/manager-vouchers/manager-vouchers.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ManagerRepairsComponent } from './pages/manager-repairs/manager-repairs
     ManagerDashboardComponent,
     OfficerDashboardComponent,
     CarInformationComponent,
-    ManagerRepairsComponent
+    ManagerRepairsComponent,
+    ManagerVouchersComponent
   ],
   imports: [
     BrowserModule,

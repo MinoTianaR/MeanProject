@@ -1,0 +1,56 @@
+<div class="container-fluid text-light p-4">
+  <div class="row">
+    <div class="col-2">
+      <a class="navbar-brand offset-2" href="#">Auto Box</a>
+    </div>
+    <div class="col-8 d-flex justify-content-center align-items-center">
+      <div class="btn-group px-5">
+        <a routerLink="/dashboard" class="text-light mx-5 text-decoration-none"
+          >Réparations</a
+        >
+        <a routerLink="/" class="text-warning mx-5 text-decoration-none"
+          >Bon de sortie</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="text-center text-light mb-5">Validation du bon de sortie</h1>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-12">
+      <table class="table text-light">
+        <thead>
+          <tr>
+            <th>Date de sortie</th>
+            <th>Propriétaire</th>
+            <th>Marque</th>
+            <th>Modèle</th>
+            <th>Plaque</th>
+            <th>Désignation</th>
+            <th>Montant</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td nowrap>Dim 22 Jan 2023 07:04:21</td>
+            <td nowrap>-</td>
+            <td nowrap>Volkswagen</td>
+            <td nowrap>Arteon</td>
+            <td nowrap>RE-682-SD</td>
+            <td>Tige de poussée des freins</td>
+            <td nowrap>-</td>
+            <td nowrap>
+              <div class="position-relative">
+                <button class="btn btn-success mx-2">Valider</button>
+                <button routerLink="/dashboard" class="btn btn-danger mx-2">Annuler</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
