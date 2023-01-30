@@ -15,6 +15,7 @@ import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password
 import { ManagerDashboardComponent } from './pages/manager-dashboard/manager-dashboard.component';
 import { OfficerDashboardComponent } from './pages/officer-dashboard/officer-dashboard.component';
 import { CarInformationComponent } from './pages/car-information/car-information.component';
+import { ManagerRepairsComponent } from './pages/manager-repairs/manager-repairs.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CarInformationComponent } from './pages/car-information/car-information
     ForgotPasswordComponent,
     ManagerDashboardComponent,
     OfficerDashboardComponent,
-    CarInformationComponent
+    CarInformationComponent,
+    ManagerRepairsComponent
   ],
   imports: [
     BrowserModule,
